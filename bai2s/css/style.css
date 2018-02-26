@@ -1,0 +1,166 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	width: 100%;
+	height: 90px;
+	background-color: #f56262;
+	/*margin-bottom: 15px;*/
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+header .logo{
+	float: left;
+	width: 40%;
+	margin-top: 22px;
+	margin-left: 100px;
+}
+header .menu{
+	float: left;
+	width: 50%;
+	/*margin-left: 60px;*/
+	margin-top: 30px;
+}
+header a {
+	display: inline;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 15px;
+	list-style: none;
+}
+header ul li{
+	list-style: none;
+}
+header a:hover{
+	color: blue;
+}
+header .active{
+	width: 10px;
+	height: 15px;
+	padding: 4px 8px;
+	background-color: black;
+	text-align: center;
+	border-radius: 5%;
+}
+.smart{
+	width: 100%;
+	height: auto;
+	background-color: #232324;
+	padding-bottom: 15px;
+}
+.smart h1{
+	text-align: center;
+	padding: 15px;
+	color: white;
+}
+.smart .container p{
+	text-align: center;
+	color: red;
+}
+.smart .circle{
+	width: 33%;
+	float: left;
+	margin: auto;
+}
+.smart .sub_circle{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #f56262;
+	margin: auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.clearfix{
+	clear: both;
+}
+.smart h3{
+	color: white;
+	text-align: center;
+	font-weight: normal;
+}
+.talent {
+	width: 100%;
+	height: auto;
+	background-color: #6cc372;
+	margin: auto;
+}
+.talent h3 {
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+.talent p{
+	color: black;
+	font-size: 14px;
+	text-align: center;
+}
+.talent .tag{
+	width: 25%;
+	float: left;
+}
+.talent .sub_talent{
+	margin-top: 15px;
+}
+.talent .container{
+	padding-bottom: 10px;
+}
+.javascrip{
+	width: 100%;
+	height: 270px;
+	background-color: #616161;
+}
+.price{
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+}
+.price .container{
+	width: 55%;
+	margin: auto;
+	padding-top: 30px;
+}
+.price .divide{
+	width: 30%;
+	float: left;
+}
+.price .tabl{
+	
+	background-color: #c0b9b9;
+	width: 95%;
+	height: auto;
+	border-radius: 5%;
+}
+.price table{
+	margin: auto;
+	width: 100%;
+	/*border-radius: 5%;*/
+}
+.price table h1{
+	text-align: center;
+}
+.price table tr td {
+	border: 1px solid #f0f0f0;
+	padding: 10px;
+	text-align: center;
+}
+.price table .first{
+	height: 86px;
+}
+.price table .end{
+	height: 80px;
+}
+.price table .special{
+	height: 110px;
+}
+.price table .color{
+	background-color: #eb4f4e;
+}
+.price .lower{
+	margin-top: 26px;
+}

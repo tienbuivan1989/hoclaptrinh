@@ -1,0 +1,154 @@
+
+.container{
+	margin: auto;
+	width: 80%; /* thuộc tính quy định thẻ bao ngoài chỉ chiếm 80% của màn hình  buốc 1 viết rebolci */
+}
+
+/*---------------------------section----------------------------*/
+section{
+
+}
+
+/*------- content1 ------------- */
+.content1{
+	width: 100%;
+	background-color: #232324;
+}
+section .content1 h1{
+	color: #fff;
+	text-align: center;
+	font-family: Myriad Pro;
+	padding: 43px 0px 10px 0px;
+}
+section .content1 .text-smart{
+	color: #d94948;
+	text-align: center;
+	padding-bottom: 25px;
+}
+section .content1 .ct1{
+	width: 33%;
+	text-align: center;
+	float: left;
+	cursor: pointer; /* hover vào thẻ ct1 sẽ xuất hiện con trỏ */
+}
+section .content1 .ct1 img{
+	padding-top: 10px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+}
+section .content1 .ct1 h2{
+	color: #fff;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+}
+section .content1 .ct1 p{
+	color: #d94948;
+	padding-bottom: 24px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+}
+section .content1 .ct1:hover img{
+	-webkit-transform: translateX(0px) rotate(90deg);
+	-o-transform: translateX(0) rotate(90deg);
+	-moz-transform: translateX(0) rotate(90deg);
+	-ms-transform: translateX(0) rotate(90deg);
+   	transform: translateX(0) rotate(90deg);
+}
+section .content1 .ct1:hover h2{
+	color: #d94948;
+}
+section .content1 .ct1:hover p{
+	color: #fff;
+}
+/*---------END content1 ---------- */
+/*-----------content2-------------*/
+
+section .content2{
+	width: 100%;
+	background-color: #6cc372;
+}
+section .content2 h1{
+	color: #fff;
+	text-align: center;
+	padding: 40px 0px 20px 0px;
+}
+section .content2 .our-team{
+	color: #232324;
+	text-align: center;
+	padding-bottom: 40px;
+}
+section .content2 .ct2{
+	width: 23.5%;
+	background-color: #fff;
+	float: left;
+	margin-bottom: 25px;
+}
+section .content2 .ct2-center1{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+section .content2 .ct2-center2{
+	margin-right:  2%;
+}
+section .content2 .ct2 .avata{
+	width: 145px;
+	height: 145px;
+	border-radius: 50%;
+	border: 12px solid #6cc372;
+	margin: 22px auto;
+	overflow: hidden;/* thuộc tính này sử dụng để dặt ảnh nằm trong thẻ DIV */
+}
+section .content2 .ct2 .avata img{
+	width: 145px;
+}
+section .content2 .ct2 .ct2-mahmoud{
+	font-size: 25px;
+	color: #61af66;
+	text-align: center;
+	padding-bottom: 18px;
+}
+section .content2 .ct2 .ct2-senior{
+	color: #e74c3c;
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+section .content2 .ct2 .ct2-follow1{
+	text-align: center;
+	padding-bottom: 20px;
+}
+section .content2 .ct2 .ct2-follow1 a{
+	font-size: 25px;
+	padding: 10px 20px 10px 20px;
+	background-color: #6cc372;
+	border-radius: 3px;
+	color: #fff;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+}
+section .content2 .ct2 .ct2-follow1 a:hover{
+	color: #e74c3c;
+}
+section .content2 .ct2 .ct2-follow1 a i{
+	padding-right: 20px;
+}
+/*-----------END content2-----------*/
+
+/*-------content3--------------*/
+
+
+

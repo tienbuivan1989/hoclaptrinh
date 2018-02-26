@@ -1,0 +1,16 @@
+body {
+	background-color: #ccc;
+}
+.box1{
+	width: 33%;
+}
+@media  (min-width: 800px) and (max-width: 1600px) {
+    body {
+        background-color: red;
+    }
+}
+@media (min-width: 400px)and (min-width: 799px) {
+    body {
+        background-color: blue;
+    }
+}
